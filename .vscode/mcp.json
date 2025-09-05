@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "my-mcp-server-96baecc3": {
+            "type": "stdio",
+            "command": "mcp-tutorial-server",
+            "args": []
+        }
+    }
+}
