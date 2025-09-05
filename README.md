@@ -1,5 +1,3 @@
 ## MCP Tutorial
 
-### With notes in config pages
-
-### TBC
+### With notes in files
