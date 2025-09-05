@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "address": "123 Main St, Anytown, USA",
+        "phone": "555-0101"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "address": "456 Oak Ave, Somewhere, USA",
+        "phone": "555-0202"
+    },
+    {
+        "id": 3,
+        "name": "Bob Johnson",
+        "email": "bob.johnson@example.com",
+        "address": "789 Pine Rd, Elsewhere, USA",
+        "phone": "555-0303"
+    },
+    {
+        "id": 4,
+        "name": "Jeb Adiya",
+        "email": "jebtest@gmaiil.com",
+        "address": "123 Pothole Blvd. Portland OR",
+        "phone": "768-966-9993"
+    }
+]

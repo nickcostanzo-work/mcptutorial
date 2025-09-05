@@ -2,8 +2,19 @@
     "servers": {
         "my-mcp-server-96baecc3": {
             "type": "stdio",
-            "command": "mcp-tutorial-server",
-            "args": []
+            "command": "node",
+            //using node command you can have the command run what is in your build/server.js file
+            // debug type can also be used this way for python
+            "args": ["/build/server.js"],
+            // current working directory - using current workspace folder
+            "cwd": "${workspaceFolder}",
+            "dev": {
+            //Any time a JS file refreshes, it'll refresh for testing purposes.
+                "watch" : "build/**/*.js",
+                "debug": {
+                    "type": "node"
+                }
+            }
         }
     }
 }
